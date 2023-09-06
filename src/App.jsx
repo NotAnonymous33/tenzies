@@ -64,7 +64,7 @@ function App() {
 
     return (
         <main>
-            {tenzies && <Confetti width={window.innerWidth} height={window.innerHeight}/>}
+            {tenzies && <Confetti width={window.innerWidth * 0.98} height={window.innerHeight}/>}
             <h1 className="title">Tenzies</h1>
             <h3 className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</h3>
             <div className="dice-container">
