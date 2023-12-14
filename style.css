@@ -78,3 +78,9 @@ main {
 .roll-button:focus {
     outline: none;
 }
+
+.scores {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
