@@ -26,6 +26,8 @@ function App() {
     useEffect(() => {
         if (tenzies) {
             setButtonText("New Game")
+        } else {
+            setButtonText("Roll")
         }
     }, [tenzies])
 
